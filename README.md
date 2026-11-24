@@ -14,9 +14,9 @@ with the Odin's built-in controls.
 - Main menu cleaned up for offline play: the online entries (online Start Game, Quick Join, Leaderboards) are
   removed, **Local Game** is renamed **Start Game** and selected first
 - Button prompts that match your pad, switchable at any time:
-  - **Odin** — the letters printed on the Odin (A right, B bottom, X top, Y left)
-  - **PlayStation** — ✕ ○ □ △ and L1/R1/L2/R2 (drawn for this project)
-  - **Xbox** — the game's own prompts
+  - **Odin** - the letters printed on the Odin (A right, B bottom, X top, Y left)
+  - **PlayStation** - ✕ ○ □ △ and L1/R1/L2/R2 (drawn for this project)
+  - **Xbox** - the game's own prompts
 - Graphics fixes: newer DXVK (2.7.1) fixes broken floor lighting in later levels; Turnip GPU driver
 - FPS counter and a performance overlay (CPU / GPU load, clock, temperatures)
 
