@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Gauntlet
+Exec=env WINEPREFIX="/data/user/0/com.winlator.cmod/files/imagefs/home/xuser/.wine" wine E:\\\\gauntlet\\\\gauntlet.bat
+Type=Application
+StartupNotify=true
+Path=/data/user/0/com.winlator.cmod/files/imagefs/home/xuser/.wine/dosdevices/e:/gauntlet
+Icon=
+StartupWMClass=gauntlet.exe
+
+[Extra Data]
+container_id=1

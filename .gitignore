@@ -1,0 +1,12 @@
+release/
+tools/build/
+*.pak
+android/dec/
+android/jar/
+android/out_*
+android/*.apk
+android/build_log.txt
+android/build_number.txt
+android/assets_public/driver/
+__pycache__/
+upload_private_words.txt
