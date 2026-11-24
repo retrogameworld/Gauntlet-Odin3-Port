@@ -1,4 +1,4 @@
-# Gauntlet Slayer Edition — AYN Odin 3 port
+# Gauntlet Slayer Edition: AYN Odin 3 port
 
 An unofficial, one-icon Android app that runs the **GOG PC version of Gauntlet Slayer Edition** on the
 **AYN Odin 3** (Snapdragon 8 Elite). No setup screens, no Windows desktop: tap the icon and the game starts,
