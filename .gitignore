@@ -10,3 +10,5 @@ android/build_number.txt
 android/assets_public/driver/
 __pycache__/
 upload_private_words.txt
+upload.bat
+upload.ps1
