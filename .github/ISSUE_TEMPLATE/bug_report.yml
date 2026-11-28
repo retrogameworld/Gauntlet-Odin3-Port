@@ -1,0 +1,86 @@
+name: Bug report
+description: Something went wrong in the Gauntlet app (won't start, crash, graphics, sound, controls...)
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting! The app doesn't write a log file you can reach on the device, but its log can be
+        captured from a PC with `adb` (USB debugging on). This helps a lot, especially for "won't start" problems:
+
+        ```
+        adb logcat -d > gauntlet_log.txt
+        ```
+
+        Run it right after the problem happens, then attach `gauntlet_log.txt` below.
+
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: Describe the problem, and what you expected to happen instead.
+      placeholder: "The app shows the splash screen and then goes back to the home screen."
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: How to make it happen
+      description: The steps that lead to the problem, and whether it happens every time.
+      placeholder: |
+        1. ...
+        2. ...
+    validations:
+      required: false
+
+  - type: input
+    id: version
+    attributes:
+      label: App version
+      description: The release you installed.
+    validations:
+      required: true
+
+  - type: input
+    id: device
+    attributes:
+      label: Device
+      description: Make and model, and the Android version.
+      placeholder: "AYN Odin 3, Android 15"
+    validations:
+      required: true
+
+  - type: input
+    id: cpu
+    attributes:
+      label: CPU / chipset
+      placeholder: "Snapdragon 8 Elite"
+    validations:
+      required: true
+
+  - type: input
+    id: gpu
+    attributes:
+      label: GPU
+      placeholder: "Adreno 830"
+    validations:
+      required: true
+
+  - type: textarea
+    id: log
+    attributes:
+      label: Log (adb logcat)
+      description: Drag and drop `gauntlet_log.txt` from the command above into this box. If you can't use adb, leave it empty.
+      placeholder: Drop gauntlet_log.txt here
+    validations:
+      required: false
+
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else
+      description: Screenshots, videos, options you changed, or anything else that might help.
+    validations:
+      required: false
